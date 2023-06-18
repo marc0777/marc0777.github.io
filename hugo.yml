@@ -37,6 +37,7 @@ params:
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
+  hideFooter: false
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -60,7 +61,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Marco Fincato
-    subtitle: "This is subtitle"
+    subtitle: "Software developer | Team ISAAC | Politecnico di Torino"
     imageUrl: "me.jpg"
     imageWidth: 240
     imageHeight: 240
@@ -91,7 +92,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/marc0777/marc0777.github.io/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -108,11 +109,11 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: Categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 20
 
