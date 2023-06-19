@@ -9,7 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: G-6FCWPNEFLH
 
 minify:
   disableXML: true
@@ -81,10 +81,6 @@ params:
       url: "https://t.me/marc0777"
     - name: stackoverflow
       url: "https://stackoverflow.com/users/9226023/marco-fincato"
-
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
