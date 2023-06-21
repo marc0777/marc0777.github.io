@@ -19,7 +19,7 @@ params:
   description: "My personal website"
   keywords: [Blog, Portfolio, PaperMod]
   author: Marco Fincato
-  images: ["me.jpg"]
+  images: ["me.webp"]
   DateFormat: "2 January 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -52,7 +52,7 @@ params:
 
   label:
     text: "Home"
-    icon: icons/transparent-icon.png
+    icon: icons/logo.svg
     iconHeight: 35
 
   # profile-mode
@@ -60,7 +60,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Marco Fincato
     subtitle: "Software developer | Team ISAAC | Politecnico di Torino"
-    imageUrl: "me.jpg"
+    imageUrl: "me.webp"
     imageWidth: 240
     imageHeight: 240
     imageTitle: "That's me!"
